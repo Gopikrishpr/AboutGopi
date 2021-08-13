@@ -133,7 +133,7 @@ html{
         display:flex;
         justify-content: center;
         align-items: center;
-        width: 60%;
+        width: 75%;
         text-align: left;
     }
     .list{
@@ -147,7 +147,7 @@ html{
         display:flex;
         justify-content: center;
         align-items: center;
-        width: 60%;
+        width: 75%;
     }
     .list1{
         margin-top: 2rem;
