@@ -140,7 +140,7 @@ html{
         font-size: 2rem;
         margin-top: 2rem;
         display:flex;
-        justify-content: left;
+        justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
     }
@@ -154,7 +154,7 @@ html{
         font-size: 2rem;
         margin-top: 2rem;
         display:flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
         text-align: justify;
