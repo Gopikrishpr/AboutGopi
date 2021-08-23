@@ -6,17 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gopikrishnan</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <header class="header">
+    <header class="header" data-aos="zoom-out-down">
         <em><h1 class="h h1">I'm Gopikrishnan</h1></em>
         <p class="h p">A web designer</p>
         <img src="images/web2.jpg" alt="web development across the world" class ="image">
     </header>
     <h2 class="head2">ABOUT ME:</h2>
     <div class="main">
-        <img src="images/Gopi.jpg" alt="Gopikrishnan" class="main-one">
-        <p class="main-two"> 
+        <img src="images/Gopi.jpg" alt="Gopikrishnan" class="main-one" data-aos="fade-right">
+        <p class="main-two" data-aos="fade-left"> 
             I am PR GOPIKRISHNAN. I am pursuing third year ELECTRONICS AND COMMUNICATION
             and ENGINEERING in Velammal College of Engineering and Technology. My long term goal
             is that I will become leader to my team after 5years of working in a company.
@@ -24,8 +25,8 @@
     </div>
     <h2 class="head2">SKILLS:</h2>
     <div class="skills">
-        <img src="images/requirements.png" alt="skillsImage" class="png1">
-        <ul class="list1">
+        <img src="images/requirements.png" alt="skillsImage" class="png1" data-aos="fade-left">
+        <ul class="list1" data-aos="fade-right">
             <li>C Language</li>
             <li>Java</li>
             <li>HTML</li>
@@ -35,8 +36,8 @@
     </div>
     <h2 class="head2">MY PROJECTS:</h2>
     <div class="skills">
-        <img src="images/project.png" alt="projectsImage" class="png">
-        <ul class="list">
+        <img src="images/project.png" alt="projectsImage" class="png" data-aos="fade-right">
+        <ul class="list" data-aos="fade-left">
             <li>Bugglar Alarm</li>
             <li>Signal Jammer</li>
             <li>Number Guessing Game</li>
@@ -44,8 +45,8 @@
     </div>
     <h2 class="head2">AREA OF INTEREST:</h2>
     <div class="skills">
-        <img src="images/coding.png" alt="InterestsImage" class="png1">
-        <ul class="list1">
+        <img src="images/coding.png" alt="InterestsImage" class="png1" data-aos="fade-left">
+        <ul class="list1" data-aos="fade-right">
             <li>
                 My area of Interests are programming in java. Because, Java is the Object Oriented Programming Language and
                 it secures our data. That's why learnt java and interested one also. after that I started learning HTML, CSS
@@ -56,11 +57,11 @@
         </ul>
     </div>
     
-    <div class="contact">
+    <div class="contact" data-aos="zoom-in">
         <p class="con">If you would like to contact me, contact me via Gmail.</p>
         <a class="hover" href="https://mail.google.com/mail/u/0/#inbox"><button class="btn">Contact Me</button></a>
     </div>
-    <footer class="foot">
+    <footer class="foot" data-aos="fade-up">
         <ul class="mylink">
             <a class="link" href="https://github.com/Gopikrishpr"><li>Github</li></a>
             <a class="link" href="https://api.whatsapp.com/send?phone=8124760699&text=Nothing"><li>Whatsapp</li></a>
@@ -69,5 +70,9 @@
         <p class="end">&copy; GopiKrishRights</p>
     </footer>
     <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
