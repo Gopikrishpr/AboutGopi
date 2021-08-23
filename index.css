@@ -74,7 +74,7 @@ html{
 }
 .main-two{
     font-style: italic;
-    text-align: left;
+    text-align: justify;
     font-size: 3rem;
 }
 /*main*/
@@ -104,7 +104,7 @@ html{
 }
 .list{
     font-style: italic;
-    text-align: left;
+    text-align: justify;
     font-size: 3rem;
     margin: auto;
     list-style: url('images/tick.svg');
@@ -157,7 +157,7 @@ html{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        text-align: left;
+        text-align: justify;
     }
 }
 
