@@ -118,7 +118,7 @@ html{
 .list1{
     grid-row: 1/2;
     font-style: italic;
-    text-align:justify;
+    text-align: justify;
     font-size: 3rem;
     margin: auto;
     list-style: url('images/tick.svg');
